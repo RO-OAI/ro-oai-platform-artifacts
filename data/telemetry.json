@@ -1,0 +1,170 @@
+{
+  "collected_at": "2026-05-29T18:15:45.247935Z",
+  "window": "15d",
+  "endpoint": "https://prometheus.example.internal",
+  "http_traffic": {
+    "backend": {
+      "requests_total": 8136115.167563723,
+      "errors_5xx": 597.0056623407419,
+      "errors_4xx": 30338.287775125926,
+      "err_rate_5xx_pct": 0.00733772384049855,
+      "response_bytes": 187457228982.81686,
+      "latency_seconds": {
+        "p50": 0.06220440811277466,
+        "p95": 0.2550054406110772,
+        "p99": 0.2974150411075043
+      }
+    },
+    "frontend": {
+      "requests_total": 2865052.1737818834,
+      "errors_5xx": 40.00084236341805,
+      "errors_4xx": 563733.8714697687,
+      "err_rate_5xx_pct": 0.0013961645351336389,
+      "response_bytes": 30013536630.322315,
+      "latency_seconds": {
+        "p50": 0.053777908504142095,
+        "p95": 0.17992601624336108,
+        "p99": 0.8731126009093497
+      }
+    },
+    "website": {
+      "requests_total": 258312.44620754482,
+      "errors_5xx": 11.000117889226697,
+      "errors_4xx": 29028.274895075454,
+      "err_rate_5xx_pct": 0.004258454461148378,
+      "response_bytes": 7058268867.15279,
+      "latency_seconds": {
+        "p50": 0.05524662181239413,
+        "p95": 0.24118755321910157,
+        "p99": 1.0516737609891824
+      }
+    },
+    "admin": {
+      "requests_total": 3948.037387548501,
+      "errors_5xx": 0.0,
+      "errors_4xx": 509.00482022851736,
+      "err_rate_5xx_pct": 0.0,
+      "response_bytes": 141581132.76021788,
+      "latency_seconds": {
+        "p50": 0.05196104237957358,
+        "p95": 0.09872598052118978,
+        "p99": 0.5141999999999907
+      }
+    },
+    "keycloak": {
+      "requests_total": 31385.297215858587,
+      "errors_5xx": 1.0000094699970874,
+      "errors_4xx": 14971.141775326396,
+      "err_rate_5xx_pct": 0.0031862354628007013,
+      "response_bytes": 187602179.57511583,
+      "latency_seconds": {
+        "p50": 0.050322280656747057,
+        "p95": 0.0956123332478194,
+        "p99": 0.09963811570035916
+      }
+    },
+    "evaluator": {
+      "requests_total": 663.0062847470742,
+      "errors_5xx": 0.0,
+      "errors_4xx": 663.0062847470741,
+      "err_rate_5xx_pct": 0.0,
+      "response_bytes": 14542.137847348342,
+      "latency_seconds": {
+        "p50": 0.05045662100456621,
+        "p95": 0.09586757990867578,
+        "p99": 0.09990410958904108
+      }
+    }
+  },
+  "peak_agg_req_per_s": 131.0877192982456,
+  "resources": {
+    "ro-oai-backend": {
+      "mem_avg_mb": 1362.6,
+      "mem_peak_mb": 4420.4,
+      "cpu_avg_cores": 0.167,
+      "cpu_peak_cores": 1.113,
+      "restarts": 0.0,
+      "replicas_min": 2.0,
+      "replicas_max": 4.0
+    },
+    "ro-oai-frontend": {
+      "mem_avg_mb": 235.0,
+      "mem_peak_mb": 1014.5,
+      "cpu_avg_cores": 0.172,
+      "cpu_peak_cores": 1.266,
+      "restarts": 10.000058058420422,
+      "replicas_min": 8.0,
+      "replicas_max": 10.0
+    },
+    "ro-oai-evaluator": {
+      "mem_avg_mb": 283.5,
+      "mem_peak_mb": 760.0,
+      "cpu_avg_cores": 0.004,
+      "cpu_peak_cores": 0.098,
+      "restarts": 0.0,
+      "replicas_min": 4.0,
+      "replicas_max": 4.0
+    },
+    "ro-oai-website": {
+      "mem_avg_mb": 256.6,
+      "mem_peak_mb": 902.8,
+      "cpu_avg_cores": 0.168,
+      "cpu_peak_cores": 0.963,
+      "restarts": 0.0,
+      "replicas_min": 3.0,
+      "replicas_max": 8.0
+    },
+    "ro-oai-admin": {
+      "mem_avg_mb": 14.1,
+      "mem_peak_mb": 16.0,
+      "cpu_avg_cores": 0.0,
+      "cpu_peak_cores": 0.002,
+      "restarts": 0.0,
+      "replicas_min": 2.0,
+      "replicas_max": 4.0
+    },
+    "rabbitmq": {
+      "mem_avg_mb": 140.6,
+      "mem_peak_mb": 315.6,
+      "cpu_avg_cores": 0.311,
+      "cpu_peak_cores": 0.602,
+      "restarts": 0.0,
+      "replicas_min": 2.0,
+      "replicas_max": 2.0
+    },
+    "neural-empires": {
+      "mem_avg_mb": 128.3,
+      "mem_peak_mb": 138.6,
+      "cpu_avg_cores": 0.002,
+      "cpu_peak_cores": 0.01,
+      "restarts": 0.0,
+      "replicas_min": 2.0,
+      "replicas_max": 2.0
+    }
+  },
+  "database": {
+    "ro_oai_prod": {
+      "size_mb": 166.9,
+      "peak_connections": 1.0,
+      "commits_15d": 11804185.966711486
+    },
+    "keycloak": {
+      "size_mb": 26.4,
+      "peak_connections": 2.0,
+      "commits_15d": 1172955.1258775943
+    },
+    "neural_empires": {
+      "size_mb": 7.7,
+      "peak_connections": 2.0,
+      "commits_15d": 975867.25643224
+    },
+    "max_connections": 100.0,
+    "cache_hit_ratio_prod": 0.999994880213448
+  },
+  "cluster": {
+    "nodes": 1.0,
+    "cpu_capacity": 16.0,
+    "mem_capacity_gb": 32.9,
+    "k8s_version": "v1.33.5+k3s1"
+  }
+}

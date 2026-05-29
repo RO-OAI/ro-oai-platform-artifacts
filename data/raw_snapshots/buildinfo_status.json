@@ -1,0 +1,33 @@
+{
+  "key": "buildinfo_status",
+  "endpoint": "query",
+  "params": {
+    "query": "prometheus_build_info"
+  },
+  "captured_at": "2026-05-29T18:46:57.461040+00:00",
+  "status": "success",
+  "response": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {
+            "__name__": "prometheus_build_info",
+            "branch": "HEAD",
+            "goarch": "amd64",
+            "goos": "linux",
+            "goversion": "go1.25.5",
+            "job": "prometheus",
+            "revision": "ed753444ffec98097399d0cfa9073c70a840b812",
+            "tags": "netgo,builtinassets"
+          },
+          "value": [
+            1780080417.469,
+            "1"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "key": "tsdb_head_series",
+  "endpoint": "query",
+  "params": {
+    "query": "prometheus_tsdb_head_series"
+  },
+  "captured_at": "2026-05-29T18:46:57.627555+00:00",
+  "status": "success",
+  "response": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {
+            "__name__": "prometheus_tsdb_head_series",
+            "job": "prometheus"
+          },
+          "value": [
+            1780080417.637,
+            "108220"
+          ]
+        }
+      ]
+    }
+  }
+}

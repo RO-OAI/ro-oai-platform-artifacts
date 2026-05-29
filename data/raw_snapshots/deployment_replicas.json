@@ -1,0 +1,199 @@
+{
+  "key": "deployment_replicas",
+  "endpoint": "query",
+  "params": {
+    "query": "kube_deployment_spec_replicas{namespace=\"default\"}"
+  },
+  "captured_at": "2026-05-29T18:46:58.417962+00:00",
+  "status": "success",
+  "response": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "deployment": "ro-oai-evaluator",
+            "job": "kube-state-metrics",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "2"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "deployment": "ro-oai-website",
+            "job": "kube-state-metrics",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "4"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "deployment": "rabbitmq",
+            "job": "kube-state-metrics",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "deployment": "ro-oai-backend",
+            "job": "kube-state-metrics",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "deployment": "neural-empires",
+            "job": "kube-state-metrics",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "deployment": "ro-oai-frontend",
+            "job": "kube-state-metrics",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "4"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "deployment": "ro-oai-admin",
+            "job": "kube-state-metrics",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "app_kubernetes_io_version": "v2.12.0",
+            "deployment": "neural-empires",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "app_kubernetes_io_version": "v2.12.0",
+            "deployment": "ro-oai-backend",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "app_kubernetes_io_version": "v2.12.0",
+            "deployment": "ro-oai-admin",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "app_kubernetes_io_version": "v2.12.0",
+            "deployment": "ro-oai-frontend",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "4"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "app_kubernetes_io_version": "v2.12.0",
+            "deployment": "ro-oai-evaluator",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "2"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "app_kubernetes_io_version": "v2.12.0",
+            "deployment": "ro-oai-website",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "4"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_deployment_spec_replicas",
+            "app_kubernetes_io_version": "v2.12.0",
+            "deployment": "rabbitmq",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring",
+            "namespace": "default"
+          },
+          "value": [
+            1780080418.426,
+            "1"
+          ]
+        }
+      ]
+    }
+  }
+}

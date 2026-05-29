@@ -1,0 +1,227 @@
+{
+  "key": "pg_db_size",
+  "endpoint": "query",
+  "params": {
+    "query": "pg_database_size_bytes"
+  },
+  "captured_at": "2026-05-29T18:47:10.765171+00:00",
+  "status": "success",
+  "response": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "keycloak",
+            "job": "postgres-exporter"
+          },
+          "value": [
+            1780080430.772,
+            "26410007"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "neural_empires",
+            "job": "postgres-exporter"
+          },
+          "value": [
+            1780080430.772,
+            "7748631"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "postgres",
+            "job": "postgres-exporter"
+          },
+          "value": [
+            1780080430.772,
+            "7683095"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "ro_oai_prod",
+            "job": "postgres-exporter"
+          },
+          "value": [
+            1780080430.772,
+            "166910999"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "template0",
+            "job": "postgres-exporter"
+          },
+          "value": [
+            1780080430.772,
+            "7520783"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "template1",
+            "job": "postgres-exporter"
+          },
+          "value": [
+            1780080430.772,
+            "7748631"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "keycloak",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.772,
+            "26410007"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "neural_empires",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.772,
+            "7748631"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "postgres",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.772,
+            "7683095"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "ro_oai_prod",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.772,
+            "166910999"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "template0",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.772,
+            "7520783"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "template1",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.772,
+            "7748631"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "keycloak",
+            "job": "kubernetes-pods",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.772,
+            "26410007"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "neural_empires",
+            "job": "kubernetes-pods",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.772,
+            "7748631"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "postgres",
+            "job": "kubernetes-pods",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.772,
+            "7683095"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "ro_oai_prod",
+            "job": "kubernetes-pods",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.772,
+            "166910999"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "template0",
+            "job": "kubernetes-pods",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.772,
+            "7520783"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_database_size_bytes",
+            "datname": "template1",
+            "job": "kubernetes-pods",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.772,
+            "7748631"
+          ]
+        }
+      ]
+    }
+  }
+}

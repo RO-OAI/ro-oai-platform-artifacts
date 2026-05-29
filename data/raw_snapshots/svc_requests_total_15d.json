@@ -1,0 +1,125 @@
+{
+  "key": "svc_requests_total_15d",
+  "endpoint": "query",
+  "params": {
+    "query": "sum by (service) (increase(traefik_service_requests_total[15d]))"
+  },
+  "captured_at": "2026-05-29T18:47:00.045628+00:00",
+  "status": "success",
+  "response": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {
+            "service": "default-ro-oai-backend-service-8080@kubernetes"
+          },
+          "value": [
+            1780080418.601,
+            "8139226.203344034"
+          ]
+        },
+        {
+          "metric": {
+            "service": "monitoring-grafana-3000@kubernetes"
+          },
+          "value": [
+            1780080418.601,
+            "15374.145828992807"
+          ]
+        },
+        {
+          "metric": {
+            "service": "argocd-argocd-server-80@kubernetes"
+          },
+          "value": [
+            1780080418.601,
+            "3240.030732791511"
+          ]
+        },
+        {
+          "metric": {
+            "service": "default-neural-empires-service-80@kubernetes"
+          },
+          "value": [
+            1780080418.601,
+            "1426.0135262224367"
+          ]
+        },
+        {
+          "metric": {
+            "service": "default-ro-oai-admin-80@kubernetes"
+          },
+          "value": [
+            1780080418.601,
+            "3948.0374484755826"
+          ]
+        },
+        {
+          "metric": {
+            "service": "default-ro-oai-evaluator-8000@kubernetes"
+          },
+          "value": [
+            1780080418.601,
+            "663.0062888397445"
+          ]
+        },
+        {
+          "metric": {
+            "service": "default-ro-oai-frontend-service-80@kubernetes"
+          },
+          "value": [
+            1780080418.601,
+            "2838829.9272656604"
+          ]
+        },
+        {
+          "metric": {
+            "service": "default-ro-oai-website-service-80@kubernetes"
+          },
+          "value": [
+            1780080418.601,
+            "258960.456339496"
+          ]
+        },
+        {
+          "metric": {
+            "service": "keycloak-keycloak-8080@kubernetes"
+          },
+          "value": [
+            1780080418.601,
+            "21689.205729479963"
+          ]
+        },
+        {
+          "metric": {
+            "service": "monitoring-cm-acme-http-solver-dts5c-8089@kubernetes"
+          },
+          "value": [
+            1780080418.601,
+            "2"
+          ]
+        },
+        {
+          "metric": {
+            "service": "monitoring-cm-acme-http-solver-splzp-8089@kubernetes"
+          },
+          "value": [
+            1780080418.601,
+            "2"
+          ]
+        },
+        {
+          "metric": {
+            "service": "monitoring-prometheus-9090@kubernetes"
+          },
+          "value": [
+            1780080418.601,
+            "438.9757904530287"
+          ]
+        }
+      ]
+    }
+  }
+}

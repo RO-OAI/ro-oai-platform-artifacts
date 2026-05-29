@@ -1,0 +1,28 @@
+{
+  "key": "pg_cache_hit_prod_15d",
+  "endpoint": "query",
+  "params": {
+    "query": "sum(rate(pg_stat_database_blks_hit{datname=\"ro_oai_prod\"}[15d])) / (sum(rate(pg_stat_database_blks_hit{datname=\"ro_oai_prod\"}[15d])) + sum(rate(pg_stat_database_blks_read{datname=\"ro_oai_prod\"}[15d])))"
+  },
+  "captured_at": "2026-05-29T18:47:11.481108+00:00",
+  "status": "success",
+  "response": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {},
+          "value": [
+            1780080431.355,
+            "0.9999948835719803"
+          ]
+        }
+      ]
+    },
+    "infos": [
+      "PromQL info: metric might not be a counter, name does not end in _total/_sum/_count/_bucket: \"pg_stat_database_blks_hit\" (1:78)",
+      "PromQL info: metric might not be a counter, name does not end in _total/_sum/_count/_bucket: \"pg_stat_database_blks_read\" (1:145)"
+    ]
+  }
+}

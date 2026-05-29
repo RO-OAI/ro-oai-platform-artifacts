@@ -1,0 +1,24 @@
+{
+  "key": "peak_agg_req_per_s",
+  "endpoint": "query",
+  "params": {
+    "query": "max_over_time(sum(rate(traefik_service_requests_total[5m]))[15d:5m])"
+  },
+  "captured_at": "2026-05-29T18:47:03.774343+00:00",
+  "status": "success",
+  "response": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {},
+          "value": [
+            1780080422.142,
+            "131.0877192982456"
+          ]
+        }
+      ]
+    }
+  }
+}

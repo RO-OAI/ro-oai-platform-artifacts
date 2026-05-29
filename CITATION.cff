@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use these artifacts, please cite the paper below."
+title: "MLCompete: reproducibility artifacts"
+abstract: >-
+  Data-collection scripts and frozen production telemetry behind the empirical
+  sections of the MLCompete paper, the platform that runs the Romanian National
+  AI Olympiad.
+authors:
+  - family-names: Colca
+    given-names: Robert-Mihai
+    orcid: "https://orcid.org/0009-0005-4436-9998"
+    email: robert.colca@e-uvt.ro
+    affiliation: "Faculty of Mathematics and Computer Science, West University of Timișoara"
+  - family-names: Rusu
+    given-names: Stefan-Dinu
+    orcid: "https://orcid.org/0009-0000-8157-4070"
+    email: dinu_stefan.rusu@upb.ro
+    affiliation: "National University of Science and Technology POLITEHNICA Bucharest"
+  - family-names: Nan
+    given-names: Mihai
+    affiliation: "National University of Science and Technology POLITEHNICA Bucharest"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "From Programs to Predictions: A Scalable, Multilingual Platform for Automated Evaluation of Machine-Learning Olympiads"
+  authors:
+    - family-names: Colca
+      given-names: Robert-Mihai
+      orcid: "https://orcid.org/0009-0005-4436-9998"
+    - family-names: Rusu
+      given-names: Stefan-Dinu
+      orcid: "https://orcid.org/0009-0000-8157-4070"
+    - family-names: Nan
+      given-names: Mihai
+  collection-title: "Communications in Computer and Information Science (CCIS)"
+  publisher:
+    name: "Springer"
+  year: 2026
+  notes: "InnoComp 2026, Lisbon, Portugal."

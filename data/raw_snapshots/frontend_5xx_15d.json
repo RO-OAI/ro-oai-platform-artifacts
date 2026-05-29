@@ -1,0 +1,24 @@
+{
+  "key": "frontend_5xx_15d",
+  "endpoint": "query",
+  "params": {
+    "query": "sum(increase(traefik_service_requests_total{service=\"default-ro-oai-frontend-service-80@kubernetes\",code=~\"5..\"}[15d]))"
+  },
+  "captured_at": "2026-05-29T18:47:01.589010+00:00",
+  "status": "success",
+  "response": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {},
+          "value": [
+            1780080421.522,
+            "40.000379417179154"
+          ]
+        }
+      ]
+    }
+  }
+}

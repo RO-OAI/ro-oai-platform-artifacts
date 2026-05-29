@@ -1,0 +1,49 @@
+{
+  "key": "pg_max_connections",
+  "endpoint": "query",
+  "params": {
+    "query": "pg_settings_max_connections"
+  },
+  "captured_at": "2026-05-29T18:47:10.926027+00:00",
+  "status": "success",
+  "response": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {
+            "__name__": "pg_settings_max_connections",
+            "job": "postgres-exporter"
+          },
+          "value": [
+            1780080430.937,
+            "100"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_settings_max_connections",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.937,
+            "100"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "pg_settings_max_connections",
+            "job": "kubernetes-pods",
+            "kubernetes_namespace": "monitoring"
+          },
+          "value": [
+            1780080430.937,
+            "100"
+          ]
+        }
+      ]
+    }
+  }
+}

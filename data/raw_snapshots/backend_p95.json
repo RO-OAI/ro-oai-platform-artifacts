@@ -1,0 +1,24 @@
+{
+  "key": "backend_p95",
+  "endpoint": "query",
+  "params": {
+    "query": "histogram_quantile(0.95, sum by (le) (rate(traefik_service_request_duration_seconds_bucket{service=\"default-ro-oai-backend-service-8080@kubernetes\"}[15d])))"
+  },
+  "captured_at": "2026-05-29T18:47:07.495550+00:00",
+  "status": "success",
+  "response": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {},
+          "value": [
+            1780080425.985,
+            "0.25498526159657475"
+          ]
+        }
+      ]
+    }
+  }
+}

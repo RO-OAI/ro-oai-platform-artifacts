@@ -1,0 +1,45 @@
+{
+  "key": "node_mem_capacity",
+  "endpoint": "query",
+  "params": {
+    "query": "kube_node_status_capacity{resource=\"memory\"}"
+  },
+  "captured_at": "2026-05-29T18:46:58.264124+00:00",
+  "status": "success",
+  "response": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {
+            "__name__": "kube_node_status_capacity",
+            "job": "kube-state-metrics",
+            "node": "control-plane",
+            "resource": "memory",
+            "unit": "byte"
+          },
+          "value": [
+            1780080418.26,
+            "32859316224"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "kube_node_status_capacity",
+            "app_kubernetes_io_version": "v2.12.0",
+            "job": "kubernetes-services",
+            "kubernetes_namespace": "monitoring",
+            "node": "control-plane",
+            "resource": "memory",
+            "unit": "byte"
+          },
+          "value": [
+            1780080418.26,
+            "32859316224"
+          ]
+        }
+      ]
+    }
+  }
+}

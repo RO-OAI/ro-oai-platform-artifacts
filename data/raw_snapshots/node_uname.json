@@ -1,0 +1,31 @@
+{
+  "key": "node_uname",
+  "endpoint": "query",
+  "params": {
+    "query": "node_uname_info"
+  },
+  "captured_at": "2026-05-29T18:46:57.890616+00:00",
+  "status": "success",
+  "response": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {
+            "__name__": "node_uname_info",
+            "job": "node-exporter",
+            "machine": "x86_64",
+            "nodename": "control-plane",
+            "release": "6.8.0-90-generic",
+            "sysname": "Linux"
+          },
+          "value": [
+            1780080417.857,
+            "1"
+          ]
+        }
+      ]
+    }
+  }
+}
