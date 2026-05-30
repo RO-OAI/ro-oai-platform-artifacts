@@ -1,0 +1,23 @@
+{
+  "ro-oai-backend": {
+    "mean_available_ratio": 0.99998,
+    "frac_time_>=1_replica": 0.99995
+  },
+  "ro-oai-frontend": {
+    "mean_available_ratio": 0.99999,
+    "frac_time_>=1_replica": 1.0
+  },
+  "ro-oai-website": {
+    "mean_available_ratio": 0.99986,
+    "frac_time_>=1_replica": 1.0
+  },
+  "ro-oai-evaluator": {
+    "mean_available_ratio": 1.0,
+    "frac_time_>=1_replica": 1.0
+  },
+  "ro-oai-admin": {
+    "mean_available_ratio": 1.0,
+    "frac_time_>=1_replica": 1.0
+  },
+  "backend_http_success_ratio": 0.999926
+}

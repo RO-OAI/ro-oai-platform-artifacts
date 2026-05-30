@@ -1,0 +1,24 @@
+{
+  "source": "https://olimpiada-ai.ro official results pages (accessed 2026-05-30)",
+  "note": "Per-stage ONIA 2026 figures taken from the official published results, used in Table 1 and Section 7.1.",
+  "stages": {
+    "simulation":   {"date": "2026-01-17", "sections": "single", "scale": "national practice round"},
+    "local":        {"date": "2026-02-14", "sections": ["9-10", "11-12"],
+                     "ranked_9_10": 123, "ranked_11_12": 216, "ranked_total": 339,
+                     "score_formula": "10*officiu*nr_probleme + 0.48*punctaj_max + 0.32*punctaj_min",
+                     "csv": ["https://olimpiada-ai.ro/documente/locala/sectiunea_9_10.csv",
+                             "https://olimpiada-ai.ro/documente/locala/sectiunea_11_12.csv"]},
+    "county":       {"date": "2026-03-14", "sections": ["9-10", "11-12"],
+                     "national_phase_spots_total": 159, "spots_9_10": 71, "spots_11_12": 88,
+                     "score_formula": "Total*9/20 + 10"},
+    "national":     {"date": "2026-04-17..20", "host": "University Politehnica of Bucharest",
+                     "finalists_total": 159, "by_grade": {"9": 17, "10": 54, "11": 45, "12": 43},
+                     "score_formula": "Total*9/30 + 10", "rounds": 4},
+    "team_camp":    {"date": "2026-05-21..25", "host": "UVT + UPT, Timisoara",
+                     "students": 30, "problems": 6, "rounds": 2,
+                     "selected_top": 12, "ioai_team": 8, "ceoai_team": 4,
+                     "gpu": "NVIDIA H200, MIG 5 slices, ~35 GB VRAM each, via JupyterHub"}
+  },
+  "national_team_size": 30,
+  "international_participation_countries": 13
+}

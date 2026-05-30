@@ -86,3 +86,10 @@ If you use this material, please cite the paper (see [CITATION.cff](CITATION.cff
 
 Code is released under the MIT License; the data files under
 CC BY 4.0. See [LICENSE](LICENSE) and [LICENSE-data](LICENSE-data).
+
+- `data/engagement_queries.sql` and `data/engagement.json` — aggregate-only
+  platform-usage figures (counts, distributions, leaderboard population). No
+  personal data, usernames, IPs, or row-level records.
+- `data/onia_stages.json` — per-stage ONIA 2026 figures from the official
+  public results on olimpiada-ai.ro.
+- `data/availability.json` — per-service availability and HTTP-success ratios.

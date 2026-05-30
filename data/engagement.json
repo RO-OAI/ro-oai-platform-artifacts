@@ -1,0 +1,32 @@
+{
+  "source": "ro_oai_prod production database (read-only aggregate queries via data/engagement_queries.sql)",
+  "collected_at": "2026-05-30",
+  "privacy": "Aggregate counts and distributions only. No personal data, usernames, IPs, or row-level records were extracted or stored.",
+  "platform_totals": {
+    "users_registered": 1399,
+    "users_on_global_leaderboard": 661,
+    "users_with_submissions": 693,
+    "submissions_total": 87074,
+    "submissions_evaluated": 82130,
+    "submissions_eval_success_pct": 94.3,
+    "problems_total": 262,
+    "problems_published": 111,
+    "problems_translated_en": 216,
+    "competitions_total": 24,
+    "institutions": 1554,
+    "distinct_countries": 18,
+    "submission_selection_acks": 835
+  },
+  "submissions_per_active_user": {
+    "n_users": 693, "mean": 125.6, "median": 29, "p90": 362, "max": 2463
+  },
+  "onia_stage_participation_platform_users": {
+    "local": 464, "county": 314, "national": 164
+  },
+  "difficulty_mix_published": {"easy": 35, "medium": 38, "hard": 38},
+  "leaderboard_rows": {
+    "problem_partial_leaderboard": 11901,
+    "problem_final_leaderboard": 2886,
+    "competition_final_leaderboard": 1447
+  }
+}
