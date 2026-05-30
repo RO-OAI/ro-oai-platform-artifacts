@@ -1,0 +1,173 @@
+{
+  "note": "Discrete-event M/G/c simulation of the evaluation pipeline, calibrated to production service-time quantiles. Model, not a live benchmark. Real observed peak was ~0.7 submissions/s.",
+  "calibration": {
+    "mean_s": 0.8,
+    "p50_s": 0.31,
+    "p90_s": 0.78,
+    "p95_s": 1.19,
+    "p99_s": 10.53,
+    "frac_le_2s": 0.971
+  },
+  "results": [
+    {
+      "lambda_per_s": 0.5,
+      "workers": 2,
+      "wait_p50_s": 0.0,
+      "wait_p95_s": 0.231,
+      "wait_p99_s": 13.77,
+      "wait_max_s": 274.5,
+      "frac_wait_under_1s": 0.9711,
+      "worker_utilisation": 0.214
+    },
+    {
+      "lambda_per_s": 1,
+      "workers": 2,
+      "wait_p50_s": 0.0,
+      "wait_p95_s": 19.019,
+      "wait_p99_s": 114.117,
+      "wait_max_s": 528.8,
+      "frac_wait_under_1s": 0.8602,
+      "worker_utilisation": 0.427
+    },
+    {
+      "lambda_per_s": 2,
+      "workers": 2,
+      "wait_p50_s": 26.028,
+      "wait_p95_s": 405.488,
+      "wait_p99_s": 1043.568,
+      "wait_max_s": 1178.87,
+      "frac_wait_under_1s": 0.2977,
+      "worker_utilisation": 0.854
+    },
+    {
+      "lambda_per_s": 0.5,
+      "workers": 4,
+      "wait_p50_s": 0.0,
+      "wait_p95_s": 0.0,
+      "wait_p99_s": 0.0,
+      "wait_max_s": 3.48,
+      "frac_wait_under_1s": 0.9999,
+      "worker_utilisation": 0.107
+    },
+    {
+      "lambda_per_s": 1,
+      "workers": 4,
+      "wait_p50_s": 0.0,
+      "wait_p95_s": 0.0,
+      "wait_p99_s": 0.032,
+      "wait_max_s": 11.42,
+      "frac_wait_under_1s": 0.9989,
+      "worker_utilisation": 0.214
+    },
+    {
+      "lambda_per_s": 2,
+      "workers": 4,
+      "wait_p50_s": 0.0,
+      "wait_p95_s": 0.506,
+      "wait_p99_s": 7.422,
+      "wait_max_s": 57.94,
+      "frac_wait_under_1s": 0.9638,
+      "worker_utilisation": 0.427
+    },
+    {
+      "lambda_per_s": 3,
+      "workers": 4,
+      "wait_p50_s": 0.0,
+      "wait_p95_s": 27.323,
+      "wait_p99_s": 133.622,
+      "wait_max_s": 213.26,
+      "frac_wait_under_1s": 0.7895,
+      "worker_utilisation": 0.64
+    },
+    {
+      "lambda_per_s": 5,
+      "workers": 4,
+      "wait_p50_s": 1532.848,
+      "wait_p95_s": 3878.905,
+      "wait_p99_s": 4233.833,
+      "wait_max_s": 4316.57,
+      "frac_wait_under_1s": 0.0115,
+      "worker_utilisation": 0.996
+    },
+    {
+      "lambda_per_s": 0.5,
+      "workers": 10,
+      "wait_p50_s": 0.0,
+      "wait_p95_s": 0.0,
+      "wait_p99_s": 0.0,
+      "wait_max_s": 0.0,
+      "frac_wait_under_1s": 1.0,
+      "worker_utilisation": 0.043
+    },
+    {
+      "lambda_per_s": 1,
+      "workers": 10,
+      "wait_p50_s": 0.0,
+      "wait_p95_s": 0.0,
+      "wait_p99_s": 0.0,
+      "wait_max_s": 0.0,
+      "frac_wait_under_1s": 1.0,
+      "worker_utilisation": 0.085
+    },
+    {
+      "lambda_per_s": 2,
+      "workers": 10,
+      "wait_p50_s": 0.0,
+      "wait_p95_s": 0.0,
+      "wait_p99_s": 0.0,
+      "wait_max_s": 0.0,
+      "frac_wait_under_1s": 1.0,
+      "worker_utilisation": 0.171
+    },
+    {
+      "lambda_per_s": 3,
+      "workers": 10,
+      "wait_p50_s": 0.0,
+      "wait_p95_s": 0.0,
+      "wait_p99_s": 0.0,
+      "wait_max_s": 0.35,
+      "frac_wait_under_1s": 1.0,
+      "worker_utilisation": 0.256
+    },
+    {
+      "lambda_per_s": 5,
+      "workers": 10,
+      "wait_p50_s": 0.0,
+      "wait_p95_s": 0.0,
+      "wait_p99_s": 0.031,
+      "wait_max_s": 4.2,
+      "frac_wait_under_1s": 0.9996,
+      "worker_utilisation": 0.426
+    },
+    {
+      "lambda_per_s": 7,
+      "workers": 10,
+      "wait_p50_s": 0.0,
+      "wait_p95_s": 0.239,
+      "wait_p99_s": 3.83,
+      "wait_max_s": 22.17,
+      "frac_wait_under_1s": 0.976,
+      "worker_utilisation": 0.596
+    },
+    {
+      "lambda_per_s": 10,
+      "workers": 10,
+      "wait_p50_s": 0.145,
+      "wait_p95_s": 47.153,
+      "wait_p99_s": 88.89,
+      "wait_max_s": 139.97,
+      "frac_wait_under_1s": 0.6218,
+      "worker_utilisation": 0.851
+    },
+    {
+      "lambda_per_s": 12,
+      "workers": 10,
+      "wait_p50_s": 208.463,
+      "wait_p95_s": 682.883,
+      "wait_p99_s": 755.114,
+      "wait_max_s": 780.6,
+      "frac_wait_under_1s": 0.0356,
+      "worker_utilisation": 0.99
+    }
+  ]
+}
